@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_multi_tenant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vijaygenius123/nodejs_multi_tenant.git",
+  "author": "Vijayaraghavan Sundararaman <vijaygenius123@gmail.com>",
+  "scripts": {
+    "start": "nodemon --watch src --exec babel-node src"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "dotenv": "8.2.0",
+    "knex": "0.21.6",
+    "pg": "8.4.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.12.1",
+    "@babel/core": "7.12.3",
+    "@babel/node": "7.12.1",
+    "@babel/preset-env": "7.12.1"
+  }
+}
